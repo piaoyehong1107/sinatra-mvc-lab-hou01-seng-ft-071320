@@ -7,6 +7,7 @@ class PigLatinizer
   
   def piglatinize
     words = string.split(" ")
+    list=[]
     words.each do |m|
       vowels=m.scan(/[aeoui]/)
         vowindex=m.index(vowels[0])
@@ -21,7 +22,7 @@ class PigLatinizer
             i+=1
             end
         end
-         return pigword
+        list.push(pigword)
       end
   end
 end

@@ -7,7 +7,9 @@ class PigLatinizer
   
   def piglatinize
      words = @string.split(" ")
-    
+     words.each do |m|
+       
+     end
   end
-  
+
 end

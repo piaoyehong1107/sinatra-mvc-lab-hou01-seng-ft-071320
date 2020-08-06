@@ -21,7 +21,7 @@ class PigLatinizer
             i+=1
             end
         end
-         pigword
+         return pigword
       end
   end
 end

@@ -6,7 +6,8 @@ class PigLatinizer
   end
   
   def piglatinize
-    @string
+     words = @string.split(" ")
+    
   end
   
 end

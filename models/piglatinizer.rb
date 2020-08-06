@@ -25,7 +25,4 @@ words.each do |m|
       end
       puts pigword
 end
-     end
-  end
-
 end

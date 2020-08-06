@@ -25,6 +25,6 @@ class PigLatinizer
         end
         list.push(pigword)
       end
-      list.join(',')
+      list.join(' ')
   end
 end

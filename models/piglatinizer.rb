@@ -18,7 +18,7 @@ class PigLatinizer
             i=0
             while i<vowindex do
               a=n.shift
-              pigword=n.push(a).join
+              pigword=n.push(a+["a","y"]).join
             i+=1
             end
         end

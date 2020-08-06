@@ -8,7 +8,7 @@ class PigLatinizer
   def piglatinize
      words = @string.split(" ")
      words.each do |m|
-       
+       m.scan(/[aeoui]/)
      end
   end
 

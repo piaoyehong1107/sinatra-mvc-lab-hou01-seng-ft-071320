@@ -22,5 +22,6 @@ class PigLatinizer
             end
         end
         puts pigword
-end
+      end
+  end
 end

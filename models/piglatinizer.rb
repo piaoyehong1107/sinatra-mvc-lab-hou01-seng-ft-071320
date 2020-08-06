@@ -10,7 +10,7 @@ class PigLatinizer
     words.each do |m|
       vowels=m.scan(/[aeoui]/)
       vowindex=m.index(vowels[0])
-      n=m.split("")
+        n=m.split("")
         if vowindex==0
           pigword=n.push(["w","a","y"]).join
         else

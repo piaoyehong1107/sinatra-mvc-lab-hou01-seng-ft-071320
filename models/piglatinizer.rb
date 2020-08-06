@@ -21,7 +21,7 @@ class PigLatinizer
             i+=1
             end
         end
-        puts pigword
+        puts pigword.join
       end
   end
 end
